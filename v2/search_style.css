@@ -1,0 +1,33 @@
+body {
+  font-family: "Sarabun", sans-serif;
+}
+
+.tab-btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  background: white;
+  color: #64748b;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s;
+}
+
+.tab-btn.active {
+  background: #1d4ed8;
+  color: white;
+  border-color: #1d4ed8;
+}
+
+.company-card {
+  border-top: 4px solid #3b82f6;
+}
+
+/* Custom scrollbar for modal */
+#detailModal ::-webkit-scrollbar {
+  width: 6px;
+}
+#detailModal ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
